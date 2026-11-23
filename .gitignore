@@ -1,0 +1,20 @@
+# Go build and test outputs
+/bin/
+/idiotic
+/idiotic.exe
+*.test
+*.test.exe
+coverage.out
+coverage.html
+*.prof
+
+# Local planning and validation artifacts
+/plan.md
+/project_plan.txt
+/checkpoints/
+/migration-summary.md
+/runtime-validation-report.md
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db

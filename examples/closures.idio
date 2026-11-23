@@ -1,0 +1,13 @@
+fn makeCounter(start) {
+    let count = start;
+    fn increment() {
+        count = count + 1;
+        return count;
+    }
+    return increment;
+}
+
+let counter = makeCounter(10);
+print(counter());
+print(counter());
+print(counter());
